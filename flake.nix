@@ -27,7 +27,7 @@
           ];
 
           shellHook = ''
-            echo "Entorno listo, recuerda crear un venv en python antes"
+            echo "Entorno listo"
 
             if [ -n "$ZSH_VERSION" ]; then
               echo "Zsh detectado"
